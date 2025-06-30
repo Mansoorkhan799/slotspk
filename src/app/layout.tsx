@@ -4,9 +4,6 @@ import Script from "next/script";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-// Add timestamp for cache busting
-const timestamp = new Date().getTime();
-
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
@@ -57,7 +54,7 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: `/slots-pk.webp?v=${timestamp}`, type: 'image/webp' }
+      { url: '/slots pk.webp', type: 'image/webp' }
     ]
   },
   manifest: '/manifest.json',
@@ -76,18 +73,16 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://slotspk.com.pk/feature/og-image.jpg",
+        url: "https://slotspk.com.pk/feature/og-image.webp",
         width: 1200,
         height: 630,
         alt: "Slots PK - Premier Gaming Platform",
-        type: "image/jpeg",
       },
       {
-        url: "https://slotspk.com.pk/slots-pk-logo.webp",
+        url: "https://slotspk.com.pk/feature/og-image-square.webp",
         width: 800,
         height: 800,
         alt: "Slots PK - Premier Gaming Platform",
-        type: "image/webp",
       }
     ],
   },
@@ -98,11 +93,10 @@ export const metadata: Metadata = {
     creator: "@slotspk",
     images: [
       {
-        url: "https://slotspk.com.pk/feature/twitter-card.jpg",
+        url: "https://slotspk.com.pk/feature/twitter-card.webp",
         width: 1200,
         height: 600,
         alt: "Slots PK - Premier Gaming Platform",
-        type: "image/jpeg",
       }
     ],
   },
@@ -119,20 +113,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="manifest" href={`/manifest.json?v=${timestamp}`} />
+        <link rel="manifest" href="/manifest.json" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <link rel="icon" href={`/slots-pk.webp?v=${timestamp}`} type="image/webp" />
-        <link rel="shortcut icon" href={`/slots-pk.webp?v=${timestamp}`} type="image/webp" />
-        <link rel="apple-touch-icon" href={`/slots-pk.webp?v=${timestamp}`} />
-        <meta property="og:image" content={`/slots-pk-logo.webp?v=${timestamp}`} />
-        <meta property="og:image:type" content="image/webp" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:image" content={`/feature/og-image.jpg?v=${timestamp}`} />
-        <meta property="og:image:type" content="image/jpeg" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
+        <link rel="icon" href="/slots pk.webp" type="image/webp" />
+        <link rel="shortcut icon" href="/slots pk.webp" type="image/webp" />
+        <link rel="apple-touch-icon" href="/slots pk.webp" />
+        <meta property="og:image" content="/slots-pk-logo.webp" />
         
         {/* Google Analytics */}
         <Script
