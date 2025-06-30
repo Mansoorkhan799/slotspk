@@ -1,0 +1,17 @@
+{
+  "name": "Slots PK",
+  "short_name": "Slots PK",
+  "description": "Pakistan's premier gaming platform offering thrilling card games, slots, and tournaments.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#06091F",
+  "theme_color": "#06091F",
+  "icons": [
+    {
+      "src": "/slots-pk.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ]
+} 

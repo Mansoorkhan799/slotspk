@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0">
+  <url>
+    <loc>https://slotspk.com.pk/</loc>
+    <mobile:mobile/>
+    <image:image>
+      <image:loc>https://slotspk.com.pk/logo.svg</image:loc>
+      <image:title>SlotsPK Logo</image:title>
+      <image:caption>SlotsPK Gaming Platform Logo</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://slotspk.com.pk/games</loc>
+    <mobile:mobile/>
+    <image:image>
+      <image:loc>https://slotspk.com.pk/logo.svg</image:loc>
+      <image:title>Card Rummy</image:title>
+      <image:caption>Play the classic card rummy game with real players</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://slotspk.com.pk/logo.svg</image:loc>
+      <image:title>Teen Patti</image:title>
+      <image:caption>Experience the excitement of Teen Patti</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://slotspk.com.pk/logo.svg</image:loc>
+      <image:title>Blackjack</image:title>
+      <image:caption>Test your skills in this classic casino card game</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://slotspk.com.pk/logo.svg</image:loc>
+      <image:title>Poker</image:title>
+      <image:caption>Join poker tables with players from across Pakistan</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://slotspk.com.pk/download</loc>
+    <mobile:mobile/>
+    <image:image>
+      <image:loc>https://slotspk.com.pk/logo.svg</image:loc>
+      <image:title>SlotsPK App Download</image:title>
+      <image:caption>Download the SlotsPK mobile app</image:caption>
+    </image:image>
+  </url>
+</urlset> 

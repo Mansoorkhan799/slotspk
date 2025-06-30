@@ -1,0 +1,25 @@
+# SlotsPK Robots.txt
+User-agent: *
+Allow: /
+
+# Priority pages
+Allow: /download
+Allow: /games
+Allow: /about
+
+# Disallowed pages
+Disallow: /contact
+Disallow: /privacy
+Disallow: /disclaimer
+
+# Mobile-specific directives
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Image-specific directives
+User-agent: Googlebot-Image
+Allow: /
+
+# Sitemaps
+Sitemap: https://slotspk.com.pk/sitemap.xml
+Sitemap: https://slotspk.com.pk/image-sitemap.xml 
