@@ -6,6 +6,16 @@ export const metadata: Metadata = {
   title: 'Slots PK Blog - Guides and Tutorials',
   description: 'Learn how to create an account, login, and get the most out of Slots PK with our helpful guides and tutorials.',
   keywords: ['Slots PK blog', 'Slots PK account', 'Slots PK login', 'Slots PK guide', 'Slots PK tutorial'],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function Blog() {

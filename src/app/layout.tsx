@@ -3,6 +3,7 @@ import "./globals.css";
 import Script from "next/script";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import DeferredStyles from "@/components/DeferredStyles";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -54,7 +55,7 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/slots pk.webp', type: 'image/webp' }
+      { url: '/slots-pk.webp', type: 'image/webp' }
     ]
   },
   manifest: '/manifest.json',
@@ -116,17 +117,17 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <link rel="icon" href="/slots pk.webp" type="image/webp" />
-        <link rel="shortcut icon" href="/slots pk.webp" type="image/webp" />
-        <link rel="apple-touch-icon" href="/slots pk.webp" />
+        <link rel="icon" href="/slots-pk.webp" type="image/webp" />
+        <link rel="shortcut icon" href="/slots-pk.webp" type="image/webp" />
+        <link rel="apple-touch-icon" href="/slots-pk.webp" />
         <meta property="og:image" content="/slots-pk-logo.webp" />
         
         {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -146,6 +147,7 @@ export default function RootLayout({
         suppressHydrationWarning
       >
         <div className="stars-bg fixed inset-0 z-0 opacity-20"></div>
+        <DeferredStyles />
         <Header />
         <main className="flex-grow relative z-10">
         {children}

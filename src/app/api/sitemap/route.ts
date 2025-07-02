@@ -35,6 +35,19 @@ export async function GET() {
           caption: 'Learn about Slots PK gaming platform'
         }
       ]
+    },
+    {
+      url: '/blog',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'weekly',
+      priority: 0.8,
+      images: [
+        {
+          loc: '/slots-pk-logo.webp',
+          title: 'Slots PK Blog',
+          caption: 'Guides and tutorials for Slots PK gaming platform'
+        }
+      ]
     }
   ];
 

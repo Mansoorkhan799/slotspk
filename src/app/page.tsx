@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from 'next/link';
 import { Metadata } from 'next';
 import MobileOptimizedImage from '@/components/MobileOptimizedImage';
+import EnhancedUIWrapper from '@/components/EnhancedUIWrapper';
 
 // This additional metadata enhances the page-specific SEO
 export const metadata: Metadata = {
@@ -131,6 +132,7 @@ export default function Home() {
                 fill
                 className="object-contain drop-shadow-2xl"
                 priority={true}
+                fetchPriority="high"
                 quality={90}
                 sizes="(min-width: 768px) 320px, (max-width: 767px) 280px, 100vw"
               />
@@ -146,6 +148,7 @@ export default function Home() {
                 fill
                 className="object-contain drop-shadow-2xl"
                 priority={true}
+                fetchPriority="high"
                 quality={90}
                 sizes="(min-width: 768px) 320px, (max-width: 767px) 280px, 100vw"
               />
@@ -215,6 +218,9 @@ export default function Home() {
               It has fair games, HD graphics, an ad-free experience, and fast performance. Due to these features, many players are choosing 
               to download this app.
             </p>
+            
+            {/* Enhanced UI with deferred styles */}
+            <EnhancedUIWrapper />
           </div>
         </div>
       </section>

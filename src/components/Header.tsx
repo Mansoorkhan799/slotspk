@@ -18,6 +18,7 @@ export default function Header() {
               height={40}
               className="object-contain"
               priority={true}
+              fetchPriority="high"
             />
           </div>
           <span className="text-accent text-xl md:text-2xl font-bold">

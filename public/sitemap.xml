@@ -30,24 +30,38 @@
     <mobile:mobile/>
   </url>
   <url>
-    <loc>https://slotspk.com.pk/contact</loc>
+    <loc>https://slotspk.com.pk/blog</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <mobile:mobile/>
+  </url>
+  <url>
+    <loc>https://slotspk.com.pk/blog/create-account-login</loc>
     <lastmod>2025-06-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <mobile:mobile/>
   </url>
   <url>
+    <loc>https://slotspk.com.pk/contact</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <mobile:mobile/>
+  </url>
+  <url>
     <loc>https://slotspk.com.pk/privacy</loc>
     <lastmod>2025-06-20</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
     <mobile:mobile/>
   </url>
   <url>
     <loc>https://slotspk.com.pk/disclaimer</loc>
     <lastmod>2025-06-20</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
     <mobile:mobile/>
   </url>
 </urlset> 

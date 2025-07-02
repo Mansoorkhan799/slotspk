@@ -6,6 +6,16 @@ export const metadata: Metadata = {
   title: 'About SlotsPK - The Best Gaming Platform in Pakistan',
   description: 'Learn about SlotsPK, our history, mission, and vision for creating the best gaming platform in Pakistan.',
   keywords: ['SlotsPK about', 'about us', 'gaming company Pakistan', 'SlotsPK history', 'gaming platform'],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function AboutPage() {

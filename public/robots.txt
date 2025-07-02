@@ -6,6 +6,8 @@ Allow: /
 Allow: /download
 Allow: /games
 Allow: /about
+Allow: /blog
+Allow: /blog/create-account-login
 
 # Disallowed pages
 Disallow: /contact

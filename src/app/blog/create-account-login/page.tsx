@@ -7,6 +7,16 @@ export const metadata: Metadata = {
   title: 'How to Create a Slots PK Account and Login - Step by Step Guide',
   description: 'Learn how to create your Slots PK account and login with our step-by-step guide. Get started playing games and earning rewards in minutes.',
   keywords: ['Slots PK account', 'Slots PK login', 'Slots PK registration', 'Slots PK sign up', 'Slots PK guide'],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   openGraph: {
     title: 'How to Create Account and Login - Slots PK',
     description: 'Learn how to create an account and login to Slots PK. Step by step guide for registration and accessing your account.',
@@ -33,7 +43,7 @@ export default function CreateAccountLogin() {
         
         <div className="prose prose-invert max-w-none">
           <p className="text-lg text-gray-300 mb-8">
-            Getting started with <Link href="/" className="text-accent hover:underline">Slots PK</Link> is quick and easy. This guide will walk you through the process of creating your account and logging in, so you can start playing and earning rewards right away.
+            Getting started with Slots PK is quick and easy. This guide will walk you through the process of creating your account and logging in, so you can start playing and earning rewards right away.
           </p>
 
           <div className="bg-secondary px-8 py-8 rounded-lg mb-12">
@@ -41,13 +51,13 @@ export default function CreateAccountLogin() {
             
             <ol className="list-decimal pl-5 space-y-6 text-gray-300">
               <li>
-                <h3 className="text-xl font-semibold mb-2 text-accent">Download the <Link href="/" className="hover:underline">Slots PK</Link> App</h3>
-                <p>First, download the <Link href="/" className="text-accent hover:underline">Slots PK</Link> app from our official website. Once downloaded, install the app on your Android device.</p>
+                <h3 className="text-xl font-semibold mb-2 text-accent">Download the Slots PK App</h3>
+                <p>First, download the Slots PK app from our official website. Once downloaded, install the app on your Android device.</p>
               </li>
               
               <li>
                 <h3 className="text-xl font-semibold mb-2 text-accent">Open the App and Tap "Register"</h3>
-                <p>Launch the <Link href="/" className="text-accent hover:underline">Slots PK</Link> app on your device. On the welcome screen, you'll see a "Register" button. Tap on it to begin the account creation process.</p>
+                <p>Launch the Slots PK app on your device. On the welcome screen, you'll see a "Register" button. Tap on it to begin the account creation process.</p>
               </li>
               
               <li>
@@ -127,14 +137,14 @@ export default function CreateAccountLogin() {
               
               <div>
                 <h3 className="text-xl font-semibold mb-2 text-accent">Can't Remember Username?</h3>
-                <p>If you can't remember your username, contact <Link href="/" className="text-accent hover:underline">Slots PK</Link> customer support with the phone number or email you used during registration.</p>
+                <p>If you can't remember your username, contact Slots PK customer support with the phone number or email you used during registration.</p>
               </div>
             </div>
           </div>
 
           <div className="mt-12">
             <h2 className="text-2xl font-bold mb-4 text-accent">Ready to Start Playing?</h2>
-            <p className="text-gray-300 mb-6">Now that you know how to create an account and login to <Link href="/" className="text-accent hover:underline">Slots PK</Link>, you're ready to start playing and earning rewards. Download the app today and join thousands of players already enjoying our platform!</p>
+            <p className="text-gray-300 mb-6">Now that you know how to create an account and login to Slots PK, you're ready to start playing and earning rewards. Download the app today and join thousands of players already enjoying our platform!</p>
             
             <a 
               href="http://win999.39slotspk.com/?referralCode=keo9260"
