@@ -55,6 +55,7 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
+      { url: '/slots-pk.ico', type: 'image/x-icon' },
       { url: '/slots-pk.webp', type: 'image/webp' }
     ]
   },
@@ -117,8 +118,9 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <link rel="icon" href="/slots-pk.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/slots-pk.ico" type="image/x-icon" />
         <link rel="icon" href="/slots-pk.webp" type="image/webp" />
-        <link rel="shortcut icon" href="/slots-pk.webp" type="image/webp" />
         <link rel="apple-touch-icon" href="/slots-pk.webp" />
         <meta property="og:image" content="/slots-pk-logo.webp" />
         
