@@ -68,41 +68,8 @@ export async function GET() {
     }
   ];
 
-  // Game pages
-  const gamePages = [
-    {
-      url: '/games',
-      lastMod: new Date().toISOString(),
-      changeFreq: 'daily',
-      priority: 0.9,
-      images: [
-        {
-          loc: '/Slots-PK-game.webp',
-          title: 'Slots PK Games',
-          caption: 'Explore our collection of exciting games'
-        }
-      ]
-    }
-  ];
-
-  // Download and support pages
-  const utilityPages = [
-    {
-      url: '/download',
-      lastMod: new Date().toISOString(),
-      changeFreq: 'weekly',
-      priority: 0.8,
-      images: [
-        {
-          loc: '/Slots-PK-APK.webp',
-          title: 'Download Slots PK',
-          caption: 'Download the Slots PK mobile app'
-        }
-      ]
-    }
-  ];
-
-  const allPages = [...mainPages, ...blogPosts, ...gamePages, ...utilityPages];
+  // Only include existing pages
+  const allPages = [...mainPages, ...blogPosts];
   
   // Generate XML with mobile and image extensions
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
