@@ -17,6 +17,9 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  alternates: {
+    canonical: "https://slotspk.com.pk/blog/create-account-login",
+  },
   openGraph: {
     title: 'How to Create Account and Login - Slots PK',
     description: 'Learn how to create an account and login to Slots PK. Step by step guide for registration and accessing your account.',

@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: 'About SlotsPK - The Best Gaming Platform in Pakistan',
@@ -15,6 +16,31 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  alternates: {
+    canonical: "https://slotspk.com.pk/about",
+  },
+  openGraph: {
+    title: 'About SlotsPK - The Best Gaming Platform in Pakistan',
+    description: 'Learn about SlotsPK, our history, mission, and vision for creating the best gaming platform in Pakistan.',
+    url: "https://slotspk.com.pk/about",
+    siteName: "Slots PK",
+    locale: "en_US",
+    type: "website",
+    images: [
+      {
+        url: "https://slotspk.com.pk/slots-pk-logo.webp",
+        width: 1200,
+        height: 630,
+        alt: "About Slots PK - Premier Gaming Platform",
+      }
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: 'About SlotsPK - The Best Gaming Platform in Pakistan',
+    description: 'Learn about SlotsPK, our history, mission, and vision for creating the best gaming platform in Pakistan.',
+    images: ["https://slotspk.com.pk/slots-pk-logo.webp"],
   },
 };
 
@@ -35,6 +61,7 @@ export default function AboutPage() {
                       src="/slots-pk.webp" 
                       alt="SlotsPK Logo" 
                       fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 320px"
                       className="object-contain p-4"
                       priority
                     />
@@ -157,6 +184,47 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
+
+      <Script
+        id="about-page-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "AboutPage",
+            "mainEntity": {
+              "@type": "Organization",
+              "name": "Slots PK",
+              "alternateName": "SlotsPK",
+              "url": "https://slotspk.com.pk",
+              "logo": "https://slotspk.com.pk/slots-pk-logo.webp",
+              "description": "Slots PK is the premier gaming platform in Pakistan, offering a wide range of games and bonuses.",
+              "foundingDate": "2021",
+              "foundingLocation": {
+                "@type": "Country",
+                "name": "Pakistan"
+              },
+              "sameAs": [
+                "https://facebook.com/slotspk",
+                "https://twitter.com/slotspk"
+              ],
+              "founder": {
+                "@type": "Person",
+                "name": "Ahmed Khan"
+              }
+            },
+            "about": {
+              "@type": "Thing",
+              "name": "Gaming Platform",
+              "description": "Online gaming and entertainment platform serving Pakistani users"
+            },
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://slotspk.com.pk/about"
+            }
+          })
+        }}
+      />
     </div>
   );
 } 
