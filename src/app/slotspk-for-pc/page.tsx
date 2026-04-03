@@ -4,14 +4,14 @@ import Script from 'next/script';
 import { SITE_ORIGIN } from '@/lib/schemaImageLicensing';
 
 export const metadata: Metadata = {
-  title: 'Slots PK for PC – Play on Windows & Mac 2025',
+  title: 'Slots PK for PC – Play on Windows & Mac 2026',
   description:
     'Play Slots PK on PC using an Android emulator. Step-by-step guide for Windows and Mac. Download BlueStacks, install Slots PK APK, and enjoy gaming on a big screen.',
   alternates: {
     canonical: `${SITE_ORIGIN}/slotspk-for-pc`,
   },
   openGraph: {
-    title: 'Slots PK for PC – Play on Windows & Mac 2025',
+    title: 'Slots PK for PC – Play on Windows & Mac 2026',
     description:
       'Play Slots PK on PC using an Android emulator. Step-by-step guide for Windows and Mac using BlueStacks.',
     url: `${SITE_ORIGIN}/slotspk-for-pc`,
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Slots PK for PC – Play on Windows & Mac 2025',
+    title: 'Slots PK for PC – Play on Windows & Mac 2026',
     description: 'Play Slots PK on PC via BlueStacks Android emulator. Works on Windows and Mac.',
     images: [`${SITE_ORIGIN}/feature/twitter-card.webp`],
   },
