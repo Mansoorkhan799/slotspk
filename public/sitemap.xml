@@ -1,76 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
+  <!-- Homepage -->
   <url>
     <loc>https://slotspk.com.pk/</loc>
     <lastmod>2025-04-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://slotspk.com.pk/slots-pk.webp</image:loc>
+      <image:title>Slots PK – Official Gaming App Pakistan</image:title>
+      <image:caption>Slots PK is the premier mobile gaming platform in Pakistan</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://slotspk.com.pk/Slots-PK-game.webp</image:loc>
+      <image:title>Slots PK Game Interface</image:title>
+      <image:caption>Slots PK game interface showing slots and card games</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://slotspk.com.pk/Slots-PK-APK.webp</image:loc>
+      <image:title>Slots PK APK App Interface</image:title>
+      <image:caption>Slots PK Android APK app interface screenshot</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://slotspk.com.pk/feature/og-image.webp</image:loc>
+      <image:title>Slots PK – Premier Gaming Platform Pakistan</image:title>
+      <image:caption>Slots PK gaming platform for Pakistani players</image:caption>
+    </image:image>
   </url>
 
+  <!-- Download Page -->
   <url>
     <loc>https://slotspk.com.pk/download-slots-pk-apk</loc>
     <lastmod>2025-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://slotspk.com.pk/slots-pk.webp</image:loc>
+      <image:title>Download Slots PK APK for Android</image:title>
+      <image:caption>Official Slots PK APK download for Android devices</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://slotspk.com.pk/Slots-PK-game.webp</image:loc>
+      <image:title>Slots PK Game Interface Screenshot</image:title>
+      <image:caption>Slots PK game interface after APK installation</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://slotspk.com.pk/Slots-PK-APK.webp</image:loc>
+      <image:title>Slots PK APK Interface Screenshot</image:title>
+      <image:caption>Slots PK APK home screen on Android</image:caption>
+    </image:image>
   </url>
 
+  <!-- Deposit Page -->
   <url>
     <loc>https://slotspk.com.pk/deposit-money-in-slotspk</loc>
     <lastmod>2025-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://slotspk.com.pk/Slots-PK-Withdraw-Money.webp</image:loc>
+      <image:title>Slots PK Deposit Money via Easypaisa or JazzCash</image:title>
+      <image:caption>Step-by-step guide to deposit money in Slots PK</image:caption>
+    </image:image>
   </url>
 
+  <!-- Withdraw Page -->
   <url>
     <loc>https://slotspk.com.pk/withdraw-money-from-slotspk</loc>
     <lastmod>2025-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://slotspk.com.pk/Slots-PK-deposit-money.webp</image:loc>
+      <image:title>Slots PK Withdraw Money to JazzCash or Bank</image:title>
+      <image:caption>Step-by-step guide to withdraw money from Slots PK</image:caption>
+    </image:image>
   </url>
 
+  <!-- Blog Index -->
   <url>
     <loc>https://slotspk.com.pk/blog</loc>
     <lastmod>2025-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://slotspk.com.pk/feature/og-image.webp</image:loc>
+      <image:title>Slots PK Blog – Guides and Tutorials</image:title>
+      <image:caption>Guides, tips, and tutorials for Slots PK players in Pakistan</image:caption>
+    </image:image>
   </url>
 
+  <!-- For PC Page -->
   <url>
     <loc>https://slotspk.com.pk/slotspk-for-pc</loc>
     <lastmod>2025-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://slotspk.com.pk/slots-pk.webp</image:loc>
+      <image:title>Slots PK for PC – Play on Windows and Mac</image:title>
+      <image:caption>Play Slots PK on PC using BlueStacks Android emulator</image:caption>
+    </image:image>
   </url>
 
+  <!-- Blog: Create Account & Login -->
   <url>
     <loc>https://slotspk.com.pk/blog/create-account-login</loc>
     <lastmod>2025-04-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://slotspk.com.pk/Slots-PK-Account-registration-and-Login.webp</image:loc>
+      <image:title>How to Create Slots PK Account and Login</image:title>
+      <image:caption>Step-by-step guide to create and login to your Slots PK account</image:caption>
+    </image:image>
   </url>
 
+  <!-- Blog: Is Slots PK Real or Fake -->
   <url>
     <loc>https://slotspk.com.pk/blog/is-slotspk-real-or-fake</loc>
     <lastmod>2025-04-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://slotspk.com.pk/feature/og-image.webp</image:loc>
+      <image:title>Is Slots PK Real or Fake – Honest Review 2025</image:title>
+      <image:caption>Honest review of Slots PK gaming platform legitimacy</image:caption>
+    </image:image>
   </url>
 
+  <!-- Blog: Tips to Win Big -->
   <url>
     <loc>https://slotspk.com.pk/blog/tips-to-win-big-in-slotspk</loc>
     <lastmod>2025-04-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://slotspk.com.pk/feature/og-image.webp</image:loc>
+      <image:title>Tips to Win Big in Slots PK – Expert Strategies 2025</image:title>
+      <image:caption>Expert tips and strategies to maximise winnings in Slots PK</image:caption>
+    </image:image>
   </url>
 
+  <!-- About Us -->
   <url>
     <loc>https://slotspk.com.pk/about-us</loc>
     <lastmod>2025-04-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://slotspk.com.pk/slots-pk.webp</image:loc>
+      <image:title>About Slots PK – Premier Gaming Platform Pakistan</image:title>
+      <image:caption>About Slots PK gaming platform founded in 2021</image:caption>
+    </image:image>
   </url>
 
+  <!-- Contact Us -->
   <url>
     <loc>https://slotspk.com.pk/contact-us</loc>
     <lastmod>2025-04-03</lastmod>
@@ -78,6 +165,7 @@
     <priority>0.5</priority>
   </url>
 
+  <!-- Privacy Policy -->
   <url>
     <loc>https://slotspk.com.pk/privacy</loc>
     <lastmod>2025-04-03</lastmod>
@@ -85,6 +173,7 @@
     <priority>0.3</priority>
   </url>
 
+  <!-- Disclaimer -->
   <url>
     <loc>https://slotspk.com.pk/disclaimer</loc>
     <lastmod>2025-04-03</lastmod>
