@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Main sitemap (dynamic — always up to date) -->
+  <sitemap>
+    <loc>https://slotspk.com.pk/api/sitemap</loc>
+    <lastmod>2025-04-03</lastmod>
+  </sitemap>
+
+  <!-- Static sitemap (all pages with mobile tags) -->
+  <sitemap>
+    <loc>https://slotspk.com.pk/sitemap.xml</loc>
+    <lastmod>2025-04-03</lastmod>
+  </sitemap>
+
+  <!-- Image sitemap -->
+  <sitemap>
+    <loc>https://slotspk.com.pk/image-sitemap.xml</loc>
+    <lastmod>2025-04-03</lastmod>
+  </sitemap>
+
+</sitemapindex>
