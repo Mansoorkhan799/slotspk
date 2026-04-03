@@ -128,21 +128,7 @@ const nextConfig = {
     ];
   },
 
-  webpack: (config, { dev, isServer }) => {
-    if (!isServer) {
-      config.resolve.fallback = {
-        ...config.resolve.fallback,
-        fs: false,
-      };
-    }
-    if (dev) {
-      config.watchOptions = {
-        poll: 1000,
-        aggregateTimeout: 300,
-      };
-    }
-    return config;
-  },
+  turbopack: {},
 
   experimental: {
     optimizeCss: true,
