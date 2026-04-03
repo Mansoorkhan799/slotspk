@@ -66,7 +66,7 @@ export default function CreateAccountLogin() {
             <ol className="list-decimal pl-5 space-y-6 text-gray-300">
               <li>
                 <h3 className="text-xl font-semibold mb-2 text-accent">Download the Slots PK App</h3>
-                <p>First, <Link href="/download-slots-pk-apk" className="text-[#0ea5e9] hover:underline">download the Slots PK APK</Link> from our official website. Once downloaded, install the app on your Android device.</p>
+                <p>First, <Link href="/download-slotspk-apk" className="text-[#0ea5e9] hover:underline">download the Slots PK APK</Link> from our official website. Once downloaded, install the app on your Android device.</p>
               </li>
               <li>
                 <h3 className="text-xl font-semibold mb-2 text-accent">Open the App and Tap "Register"</h3>

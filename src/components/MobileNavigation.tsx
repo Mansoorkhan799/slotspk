@@ -99,7 +99,7 @@ export default function MobileNavigation() {
               Home
             </Link>
             <Link
-              href="/download-slots-pk-apk"
+              href="/download-slotspk-apk"
               className="text-white hover:text-accent py-3 text-lg font-medium transition-colors"
               onClick={() => setIsOpen(false)}
             >

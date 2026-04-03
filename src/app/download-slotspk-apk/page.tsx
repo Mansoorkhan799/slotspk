@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   description:
     'Download the latest Slots PK APK for Android free. Step-by-step installation guide, system requirements, and features. Official APK – safe & secure download.',
   alternates: {
-    canonical: `${SITE_ORIGIN}/download-slots-pk-apk`,
+    canonical: `${SITE_ORIGIN}/download-slotspk-apk`,
   },
   openGraph: {
     title: 'Download Slots PK APK – Latest Version 2025',
     description:
       'Download the latest Slots PK APK for Android free. Step-by-step installation guide, system requirements, and features. Official APK – safe & secure.',
-    url: `${SITE_ORIGIN}/download-slots-pk-apk`,
+    url: `${SITE_ORIGIN}/download-slotspk-apk`,
     siteName: 'Slots PK',
     locale: 'en_US',
     type: 'website',
@@ -209,7 +209,7 @@ export default function DownloadSlotsPKPage() {
             name: 'Slots PK',
             operatingSystem: 'Android',
             applicationCategory: 'GameApplication',
-            url: `${SITE_ORIGIN}/download-slots-pk-apk`,
+            url: `${SITE_ORIGIN}/download-slotspk-apk`,
             downloadUrl: DOWNLOAD_LINK,
             fileSize: '38.45 MB',
             softwareVersion: '1.5.2',
@@ -232,7 +232,7 @@ export default function DownloadSlotsPKPage() {
             '@type': 'BreadcrumbList',
             itemListElement: [
               { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_ORIGIN },
-              { '@type': 'ListItem', position: 2, name: 'Download Slots PK', item: `${SITE_ORIGIN}/download-slots-pk-apk` },
+              { '@type': 'ListItem', position: 2, name: 'Download Slots PK', item: `${SITE_ORIGIN}/download-slotspk-apk` },
             ],
           }),
         }}

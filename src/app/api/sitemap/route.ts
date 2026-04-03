@@ -20,7 +20,7 @@ const mainPages: SitemapPage[] = [
     ],
   },
   {
-    url: '/download-slots-pk-apk',
+    url: '/download-slotspk-apk',
     changeFreq: 'weekly',
     priority: 0.9,
     images: [

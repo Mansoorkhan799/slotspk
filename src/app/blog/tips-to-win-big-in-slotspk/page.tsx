@@ -103,7 +103,7 @@ export default function TipsToWinBigPage() {
           <section>
             <h2 className="text-2xl font-bold text-white mb-3">Final Thoughts</h2>
             <p>
-              Winning big in Slots PK requires a mix of strategy, patience, and smart use of bonuses. Always play responsibly, stick to your budget, and enjoy the games for entertainment first. Download <Link href="/download-slots-pk-apk" className="text-[#0ea5e9] hover:underline">Slots PK</Link> today and put these tips to the test!
+              Winning big in Slots PK requires a mix of strategy, patience, and smart use of bonuses. Always play responsibly, stick to your budget, and enjoy the games for entertainment first. Download <Link href="/download-slotspk-apk" className="text-[#0ea5e9] hover:underline">Slots PK</Link> today and put these tips to the test!
             </p>
           </section>
 

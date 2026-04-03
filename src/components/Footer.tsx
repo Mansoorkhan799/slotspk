@@ -53,7 +53,7 @@ export default function Footer() {
             <h2 className="text-lg font-semibold mb-4 text-accent">Resources</h2>
             <ul className="space-y-2">
               <li>
-                <Link href="/download-slots-pk-apk" className="text-gray-300 hover:text-accent transition-colors">Download Slots PK</Link>
+                <Link href="/download-slotspk-apk" className="text-gray-300 hover:text-accent transition-colors">Download Slots PK</Link>
               </li>
               <li>
                 <Link href="/deposit-money-in-slotspk" className="text-gray-300 hover:text-accent transition-colors">Deposit Money</Link>

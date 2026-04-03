@@ -31,7 +31,7 @@ export default function Header() {
           <Link href="/" className="text-white hover:text-accent font-medium transition-colors">
             Home
           </Link>
-          <Link href="/download-slots-pk-apk" className="text-white hover:text-accent font-medium transition-colors">
+          <Link href="/download-slotspk-apk" className="text-white hover:text-accent font-medium transition-colors">
             Download
           </Link>
           <Link href="/blog/create-account-login" className="text-white hover:text-accent font-medium transition-colors">

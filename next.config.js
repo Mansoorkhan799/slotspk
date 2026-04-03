@@ -34,7 +34,12 @@ const nextConfig = {
       },
       {
         source: '/download-slotspk',
-        destination: '/download-slots-pk-apk',
+        destination: '/download-slotspk-apk',
+        permanent: true,
+      },
+      {
+        source: '/download-slots-pk-apk',
+        destination: '/download-slotspk-apk',
         permanent: true,
       },
     ];
