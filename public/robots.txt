@@ -138,7 +138,7 @@ Allow: /
 # SITEMAPS
 # ============================================
 
-Sitemap: https://slotspk.com.pk/api/sitemap
+Sitemap: https://slotspk.com.pk/sitemap-index.xml
 Sitemap: https://slotspk.com.pk/sitemap.xml
 Sitemap: https://slotspk.com.pk/image-sitemap.xml
 
