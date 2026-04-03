@@ -20,7 +20,7 @@ export default function MobileOptimizedImage({
   className = '',
   priority = false,
 }: MobileOptimizedImageProps) {
-  const [isMobile, setIsMobile] = useState(false);
+  const [_isMobile, setIsMobile] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
   const [dimensions, setDimensions] = useState({ width, height });
   const [imageSizes, setSizes] = useState(`${width}px`);
